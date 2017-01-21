@@ -1,0 +1,17 @@
+branch-defaults:
+  master:
+    environment: dev-env
+    group_suffix: null
+environment-defaults:
+  dev-env:
+    branch: null
+    repository: null
+global:
+  application_name: photosite
+  branch: null
+  default_ec2_keyname: aws-eb
+  default_platform: PHP 7.0
+  default_region: eu-west-2
+  profile: eb-cli
+  repository: null
+  sc: git
